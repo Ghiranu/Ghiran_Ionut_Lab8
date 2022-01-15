@@ -14,6 +14,10 @@ namespace Ghiran_Ionut_Lab8.Data
         {
         }
 
-        public DbSet<Ghiran_Ionut_Lab8.Models.Book> Book { get; set; }
+        public DbSet<Book> Book { get; set; }
+
+        public DbSet<Publisher> Publisher { get; set; }
+
+        public DbSet<Ghiran_Ionut_Lab8.Models.Category> Category { get; set; }
     }
 }
